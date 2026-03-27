@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Basic Details</legend>
+        <!-- <form action="./Screenshot 2025-07-16 105117.png"> -->
+        <form action="./responce.html" method="post">
+        <label>ENTER EMAIL</label>
+        <input required type="email" placeholder="email" name="myemail">
+        <sup style="color: red;">**</sup>
+        <br><br>
+        <label>ENTER PASSWORD</label>
+        <input required type="password" placeholder="password" minlength="8" maxlength="10">
+        <sup style="color: red;">**</sup>
+        <br><br>
+        <label>ENTER THE GENDER</label><br>
+        <input type="radio" name="a"><label>MALE</label><br>
+        <input type="radio" name="a"><label>FEMALE</label><br>
+        <input type="radio" name="a"><label>OTHERS</label><br>
+        <br><br>
+        <label> SELECT YOUR SKILS</label><br>
+        <input type="checkbox"  checked required><label>JAVA</label><br>
+        <input type="checkbox" ><label>PYTHON</label><br>
+        <input type="checkbox" ><label>SQL</label><br>
+        <input type="checkbox" disabled ><label>HTML</label><br>
+        <input type="checkbox" ><label>CSS</label><br>
+        <input type="checkbox" ><label>JS</label><br>
+        <br><br>
+        <label for="">ENTER YOUR AGE</label>
+        <input type="number" min="18" max="30"><br>
+        <br>
+        <label for="">ENTER PHONE NUMBER</label>
+        <input type="tel" minlength="10" maxlength="10" pattern="[6-9]{1}[0-9]{9}"><br>
+        <br>
+        <label for="">ADDRESS</label>
+        <textarea name="address" id="" cols="20" rows="10" placeholder="address"></textarea><br><br>
+        <label for="">SELECT STATE</label>
+        <select name="" id="">
+            <option value="" disabled selected>----select your state</option>
+            <option value="">kerela</option>
+            <option value="">karnataka</option>
+            <option value="">telangana</option>
+        </select><br><br>
+        <label for="">DATE OF BIRTH</label>
+        <input type="date" min="2000-01-01" max="2010-12-31">
+
+        <br><br>
+   
+    <button>submit</button>
+     </form>
+    </fieldset>
+</body>
+</html>
